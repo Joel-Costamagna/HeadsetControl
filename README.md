@@ -16,7 +16,7 @@ Currently only setting sidetone is supported, but other features could be implem
 
 ## Building
 
-Building is really simple, you will only need libusb-1.0 (which is already installed on most systems). Just type make to build the C program.
+Building is really simple, you will only need libusb-1.0 (which is already installed on most systems), and libusb-1.0-0-dev. Just type make to build the C program.
 You also need a udev rule if you don't want to start it via root, type make install to install the udev rule which comes with this repository. Installing will also place the application in /usr/bin
 
 ## Usage
